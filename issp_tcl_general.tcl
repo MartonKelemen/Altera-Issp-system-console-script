@@ -1,5 +1,5 @@
 
-# This script simplifys handling long issp sources. You can cut the issp source
+# This script simplifies handling long issp sources. You can cut the issp source
 #to custom sized parts, and then setting its values
 #
 # BEFORE USING THE SCRIPT:
