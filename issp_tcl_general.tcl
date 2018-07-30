@@ -14,6 +14,13 @@
 #           set ::issp_setting_source [list 26 19 8 0]
 #
 
+#THE ELEMENTS OF issp_setting_probes, ARE THE LOCATION OF THE LOWEST BITS OF THE ISSP Probes
+#
+#             probe0   probe1   probe2   probe3
+#           | 32..26 | 25...19 | 18...8 | 7..0 |
+#           set ::issp_setting_probes [list 26 19 8 0]
+#
+
 #THE ARGUMENTUM OF send_packet ARE THE WISHED VALUES OF THE SOURCES. BE CATIOUS WHEN SETTING THE VALUES, YOU CAN SET HIGHER VALUES THEN .
 #
 #           send_packet 7 3 2 1
